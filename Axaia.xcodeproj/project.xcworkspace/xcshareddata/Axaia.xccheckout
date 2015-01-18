@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9D732D56-DCAC-43F6-9B29-B227B9F53A9C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Axaia</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3FE8C72B33B661DB09304CEF75DD3188FFF49A23</key>
+		<string>github.com:mwielocha/Axaia.git</string>
+		<key>9CE17CE2551B6533AE4D781CF716FEAB38892D0A</key>
+		<string>https://github.com/datastax/cpp-driver.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Axaia.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3FE8C72B33B661DB09304CEF75DD3188FFF49A23</key>
+		<string>../..</string>
+		<key>9CE17CE2551B6533AE4D781CF716FEAB38892D0A</key>
+		<string>../../../cpp-driver</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:mwielocha/Axaia.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3FE8C72B33B661DB09304CEF75DD3188FFF49A23</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3FE8C72B33B661DB09304CEF75DD3188FFF49A23</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Axaia</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9CE17CE2551B6533AE4D781CF716FEAB38892D0A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cpp-driver</string>
+		</dict>
+	</array>
+</dict>
+</plist>
