@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F81F31DA1A6BC44000363072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81F31D91A6BC44000363072 /* AppDelegate.swift */; };
+		F81F31DC1A6BC44000363072 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81F31DB1A6BC44000363072 /* ViewController.swift */; };
+		F81F31DE1A6BC44000363072 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81F31DD1A6BC44000363072 /* Images.xcassets */; };
+		F81F31E11A6BC44000363072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81F31DF1A6BC44000363072 /* Main.storyboard */; };
+		F81F31ED1A6BC44000363072 /* AxaiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81F31EC1A6BC44000363072 /* AxaiaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F81F31E71A6BC44000363072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F81F31CC1A6BC44000363072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81F31D31A6BC44000363072;
+			remoteInfo = Axaia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F81F31D41A6BC44000363072 /* Axaia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Axaia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81F31D81A6BC44000363072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81F31D91A6BC44000363072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F81F31DB1A6BC44000363072 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F81F31DD1A6BC44000363072 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F81F31E01A6BC44000363072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F81F31E61A6BC44000363072 /* AxaiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxaiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81F31EB1A6BC44000363072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81F31EC1A6BC44000363072 /* AxaiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxaiaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F81F31D11A6BC44000363072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81F31E31A6BC44000363072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F81F31CB1A6BC44000363072 = {
+			isa = PBXGroup;
+			children = (
+				F81F31D61A6BC44000363072 /* Axaia */,
+				F81F31E91A6BC44000363072 /* AxaiaTests */,
+				F81F31D51A6BC44000363072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F81F31D51A6BC44000363072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F81F31D41A6BC44000363072 /* Axaia.app */,
+				F81F31E61A6BC44000363072 /* AxaiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F81F31D61A6BC44000363072 /* Axaia */ = {
+			isa = PBXGroup;
+			children = (
+				F81F31D91A6BC44000363072 /* AppDelegate.swift */,
+				F81F31DB1A6BC44000363072 /* ViewController.swift */,
+				F81F31DD1A6BC44000363072 /* Images.xcassets */,
+				F81F31DF1A6BC44000363072 /* Main.storyboard */,
+				F81F31D71A6BC44000363072 /* Supporting Files */,
+			);
+			path = Axaia;
+			sourceTree = "<group>";
+		};
+		F81F31D71A6BC44000363072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F81F31D81A6BC44000363072 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F81F31E91A6BC44000363072 /* AxaiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F81F31EC1A6BC44000363072 /* AxaiaTests.swift */,
+				F81F31EA1A6BC44000363072 /* Supporting Files */,
+			);
+			path = AxaiaTests;
+			sourceTree = "<group>";
+		};
+		F81F31EA1A6BC44000363072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F81F31EB1A6BC44000363072 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F81F31D31A6BC44000363072 /* Axaia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81F31F01A6BC44000363072 /* Build configuration list for PBXNativeTarget "Axaia" */;
+			buildPhases = (
+				F81F31D01A6BC44000363072 /* Sources */,
+				F81F31D11A6BC44000363072 /* Frameworks */,
+				F81F31D21A6BC44000363072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Axaia;
+			productName = Axaia;
+			productReference = F81F31D41A6BC44000363072 /* Axaia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F81F31E51A6BC44000363072 /* AxaiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81F31F31A6BC44000363072 /* Build configuration list for PBXNativeTarget "AxaiaTests" */;
+			buildPhases = (
+				F81F31E21A6BC44000363072 /* Sources */,
+				F81F31E31A6BC44000363072 /* Frameworks */,
+				F81F31E41A6BC44000363072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F81F31E81A6BC44000363072 /* PBXTargetDependency */,
+			);
+			name = AxaiaTests;
+			productName = AxaiaTests;
+			productReference = F81F31E61A6BC44000363072 /* AxaiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F81F31CC1A6BC44000363072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mikołaj Wielocha";
+				TargetAttributes = {
+					F81F31D31A6BC44000363072 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F81F31E51A6BC44000363072 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F81F31D31A6BC44000363072;
+					};
+				};
+			};
+			buildConfigurationList = F81F31CF1A6BC44000363072 /* Build configuration list for PBXProject "Axaia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F81F31CB1A6BC44000363072;
+			productRefGroup = F81F31D51A6BC44000363072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F81F31D31A6BC44000363072 /* Axaia */,
+				F81F31E51A6BC44000363072 /* AxaiaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F81F31D21A6BC44000363072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81F31DE1A6BC44000363072 /* Images.xcassets in Resources */,
+				F81F31E11A6BC44000363072 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81F31E41A6BC44000363072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F81F31D01A6BC44000363072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81F31DC1A6BC44000363072 /* ViewController.swift in Sources */,
+				F81F31DA1A6BC44000363072 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81F31E21A6BC44000363072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81F31ED1A6BC44000363072 /* AxaiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F81F31E81A6BC44000363072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81F31D31A6BC44000363072 /* Axaia */;
+			targetProxy = F81F31E71A6BC44000363072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F81F31DF1A6BC44000363072 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F81F31E01A6BC44000363072 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F81F31EE1A6BC44000363072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F81F31EF1A6BC44000363072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F81F31F11A6BC44000363072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Axaia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F81F31F21A6BC44000363072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Axaia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F81F31F41A6BC44000363072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AxaiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Axaia.app/Contents/MacOS/Axaia";
+			};
+			name = Debug;
+		};
+		F81F31F51A6BC44000363072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AxaiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Axaia.app/Contents/MacOS/Axaia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F81F31CF1A6BC44000363072 /* Build configuration list for PBXProject "Axaia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81F31EE1A6BC44000363072 /* Debug */,
+				F81F31EF1A6BC44000363072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81F31F01A6BC44000363072 /* Build configuration list for PBXNativeTarget "Axaia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81F31F11A6BC44000363072 /* Debug */,
+				F81F31F21A6BC44000363072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F81F31F31A6BC44000363072 /* Build configuration list for PBXNativeTarget "AxaiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81F31F41A6BC44000363072 /* Debug */,
+				F81F31F51A6BC44000363072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F81F31CC1A6BC44000363072 /* Project object */;
+}
