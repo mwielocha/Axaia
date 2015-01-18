@@ -12,8 +12,21 @@
 		F81F31DE1A6BC44000363072 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81F31DD1A6BC44000363072 /* Images.xcassets */; };
 		F81F31E11A6BC44000363072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81F31DF1A6BC44000363072 /* Main.storyboard */; };
 		F81F31ED1A6BC44000363072 /* AxaiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81F31EC1A6BC44000363072 /* AxaiaTests.swift */; };
+		F8C220FA1A6C36BB0013090E /* libcassandra.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C220F91A6C36BB0013090E /* libcassandra.1.dylib */; };
+		F8C220FB1A6C36C20013090E /* libcassandra.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8C220F91A6C36BB0013090E /* libcassandra.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		F8E22B691A6BCB51005E5351 /* Cassandra.mm in Sources */ = {isa = PBXBuildFile; fileRef = F8E22B681A6BCB51005E5351 /* Cassandra.mm */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F8D194371A6BE908003F9A51 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		F81F31E71A6BC44000363072 /* PBXContainerItemProxy */ = {
@@ -25,6 +38,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F8D194461A6BEDAB003F9A51 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8C220FB1A6C36C20013090E /* libcassandra.1.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		F81F31D41A6BC44000363072 /* Axaia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Axaia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81F31D81A6BC44000363072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +61,7 @@
 		F81F31E61A6BC44000363072 /* AxaiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxaiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81F31EB1A6BC44000363072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F81F31EC1A6BC44000363072 /* AxaiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxaiaTests.swift; sourceTree = "<group>"; };
+		F8C220F91A6C36BB0013090E /* libcassandra.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcassandra.1.dylib; sourceTree = "<group>"; };
 		F8E22B651A6BC940005E5351 /* Axaia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Axaia-Bridging-Header.h"; sourceTree = "<group>"; };
 		F8E22B681A6BCB51005E5351 /* Cassandra.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Cassandra.mm; sourceTree = "<group>"; };
 		F8E22B6A1A6BCEBE005E5351 /* Cassandra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cassandra.h; sourceTree = "<group>"; };
@@ -45,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C220FA1A6C36BB0013090E /* libcassandra.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +89,7 @@
 		F81F31CB1A6BC44000363072 = {
 			isa = PBXGroup;
 			children = (
+				F8C220F91A6C36BB0013090E /* libcassandra.1.dylib */,
 				F81F31D61A6BC44000363072 /* Axaia */,
 				F81F31E91A6BC44000363072 /* AxaiaTests */,
 				F81F31D51A6BC44000363072 /* Products */,
@@ -132,10 +161,12 @@
 			buildConfigurationList = F81F31F01A6BC44000363072 /* Build configuration list for PBXNativeTarget "Axaia" */;
 			buildPhases = (
 				F81F31D01A6BC44000363072 /* Sources */,
-				F81F31D11A6BC44000363072 /* Frameworks */,
 				F81F31D21A6BC44000363072 /* Resources */,
+				F8D194461A6BEDAB003F9A51 /* CopyFiles */,
+				F81F31D11A6BC44000363072 /* Frameworks */,
 			);
 			buildRules = (
+				F8D194371A6BE908003F9A51 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -341,17 +372,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/local/include/,
 				);
 				INFOPLIST_FILE = Axaia/Info.plist;
+				LD_DYLIB_INSTALL_NAME = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					/usr/local/lib64/,
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Axaia/Axaia-Bridging-Header.h";
@@ -364,17 +398,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/local/include/,
 				);
 				INFOPLIST_FILE = Axaia/Info.plist;
+				LD_DYLIB_INSTALL_NAME = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					/usr/local/lib64/,
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Axaia/Axaia-Bridging-Header.h";
