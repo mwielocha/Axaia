@@ -22,6 +22,11 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBAction func connect(sender : AnyObject) {
+       println("Clicked!")
+    
+        let cassandra = CassObjc()
+        cassandra.connect("127.0.0.1")
+    }
 }
 

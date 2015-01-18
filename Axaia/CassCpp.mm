@@ -1,8 +1,9 @@
 #import "Cassandra.h"
 #import <cassandra.h>
 #import <stdio.h>
+#import "CassCpp.h"
 
-@implementation Cassandra {
+@implementation CassCpp {
     CassCluster* cluster;
     CassSession* session;
 }

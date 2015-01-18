@@ -12,7 +12,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Cassandra : NSObject
+@protocol Cassandra
 - (void) connect:(NSString*)str;
 @end
 

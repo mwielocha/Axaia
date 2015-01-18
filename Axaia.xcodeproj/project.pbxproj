@@ -14,7 +14,8 @@
 		F81F31ED1A6BC44000363072 /* AxaiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81F31EC1A6BC44000363072 /* AxaiaTests.swift */; };
 		F8C220FA1A6C36BB0013090E /* libcassandra.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C220F91A6C36BB0013090E /* libcassandra.1.dylib */; };
 		F8C220FB1A6C36C20013090E /* libcassandra.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8C220F91A6C36BB0013090E /* libcassandra.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		F8E22B691A6BCB51005E5351 /* Cassandra.mm in Sources */ = {isa = PBXBuildFile; fileRef = F8E22B681A6BCB51005E5351 /* Cassandra.mm */; };
+		F8C220FD1A6C48810013090E /* CassObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C220FC1A6C48810013090E /* CassObjc.m */; };
+		F8E22B691A6BCB51005E5351 /* CassCpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = F8E22B681A6BCB51005E5351 /* CassCpp.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -62,8 +63,11 @@
 		F81F31EB1A6BC44000363072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F81F31EC1A6BC44000363072 /* AxaiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxaiaTests.swift; sourceTree = "<group>"; };
 		F8C220F91A6C36BB0013090E /* libcassandra.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcassandra.1.dylib; sourceTree = "<group>"; };
+		F8C220FC1A6C48810013090E /* CassObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CassObjc.m; sourceTree = "<group>"; };
+		F8C220FE1A6C4AE20013090E /* CassCpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CassCpp.h; sourceTree = "<group>"; };
+		F8C220FF1A6C4BAA0013090E /* CassObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CassObjc.h; sourceTree = "<group>"; };
 		F8E22B651A6BC940005E5351 /* Axaia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Axaia-Bridging-Header.h"; sourceTree = "<group>"; };
-		F8E22B681A6BCB51005E5351 /* Cassandra.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Cassandra.mm; sourceTree = "<group>"; };
+		F8E22B681A6BCB51005E5351 /* CassCpp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CassCpp.mm; sourceTree = "<group>"; };
 		F8E22B6A1A6BCEBE005E5351 /* Cassandra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cassandra.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,7 +152,10 @@
 			isa = PBXGroup;
 			children = (
 				F8E22B6A1A6BCEBE005E5351 /* Cassandra.h */,
-				F8E22B681A6BCB51005E5351 /* Cassandra.mm */,
+				F8E22B681A6BCB51005E5351 /* CassCpp.mm */,
+				F8C220FC1A6C48810013090E /* CassObjc.m */,
+				F8C220FF1A6C4BAA0013090E /* CassObjc.h */,
+				F8C220FE1A6C4AE20013090E /* CassCpp.h */,
 			);
 			name = Cassandra;
 			sourceTree = "<group>";
@@ -254,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E22B691A6BCB51005E5351 /* Cassandra.mm in Sources */,
+				F8E22B691A6BCB51005E5351 /* CassCpp.mm in Sources */,
 				F81F31DC1A6BC44000363072 /* ViewController.swift in Sources */,
+				F8C220FD1A6C48810013090E /* CassObjc.m in Sources */,
 				F81F31DA1A6BC44000363072 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
