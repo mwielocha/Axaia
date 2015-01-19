@@ -9,9 +9,16 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    
+    @IBOutlet var queryView: NSTextView!
+    
+    var cassandra: Cassandra!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        cassandra = CassObjc()
+        cassandra.connect("127.0.0.1")
 
         // Do any additional setup after loading the view.
     }
@@ -22,11 +29,8 @@ class ViewController: NSViewController {
         }
     }
 
-    @IBAction func connect(sender : AnyObject) {
-       println("Clicked!")
-    
-        let cassandra = CassObjc()
-        cassandra.connect("127.0.0.1")
+    @IBAction func run(sender : AnyObject) {
+        cassandra.query(queryView.string)
     }
 }
 

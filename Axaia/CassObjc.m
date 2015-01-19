@@ -28,4 +28,8 @@
 {
     [cass connect:contactPoints];
 }
+- (void) query:(NSString *)query
+{
+    [cass query:query];
+}
 @end
