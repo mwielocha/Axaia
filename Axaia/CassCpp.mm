@@ -2,6 +2,7 @@
 #import <cassandra.h>
 #import <stdio.h>
 #import "CassCpp.h"
+#import "Entity.h"
 
 @implementation CassCpp {
     CassCluster* cluster;
@@ -50,13 +51,29 @@
         CassIterator* rows = cass_iterator_from_result(result);
         
         while(cass_iterator_next(rows)) {
-            const CassRow* row = cass_iterator_get_row(rows);
-            const CassValue* value = cass_row_get_column(row, 0);
             
-            CassString keyspace_name;
-            cass_value_get_string(value, &keyspace_name);
-            printf("keyspace_name: '%.*s'\n", (int)keyspace_name.length,
-                   keyspace_name.data);
+            const CassRow* row = cass_iterator_get_row(rows);
+            CassIterator* columns = cass_iterator_from_row(row);
+            
+            while(cass_iterator_next(columns))
+            {
+                const CassValue* column = cass_iterator_get_column(columns);
+                CassString column_name;
+                cass_value_get_string(column, &column_name);
+                
+                printf("column_name: '%.*s'\n", (int)column_name.length,
+                       column_name.data);
+                
+                const CassValue* column_value = cass_row_get_column_by_name(row, column_name.data);
+                
+                CassString column_v;
+                cass_value_get_string(column_value, &column_v);
+                
+                printf("column_value: '%.*s'\n", (int)column_v.length,
+                       column_v.data);
+            }
+            
+            cass_iterator_free(columns);
         }
         
         cass_result_free(result);

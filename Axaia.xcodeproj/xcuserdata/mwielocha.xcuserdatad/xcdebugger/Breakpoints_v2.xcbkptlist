@@ -23,7 +23,7 @@
                   symbolName = "Axaia.ViewController.__deallocating_deinit"
                   moduleName = "Axaia"
                   urlString = "file:///Users/mwielocha/workspace/Axaia/Axaia/ViewController.swift"
-                  timestampString = "443377098.256543"
+                  timestampString = "443398377.442244"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "11"
@@ -37,7 +37,7 @@
                   symbolName = "@objc Axaia.ViewController.__ivar_destroyer"
                   moduleName = "Axaia"
                   urlString = "file:///Users/mwielocha/workspace/Axaia/Axaia/ViewController.swift"
-                  timestampString = "443377098.25675"
+                  timestampString = "443398377.442439"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "11"
@@ -45,6 +45,22 @@
                   offsetFromSymbolStart = "15">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Axaia/QueryOutlineView.swift"
+            timestampString = "443395656.987137"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "outlineView(_:child:ofItem:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

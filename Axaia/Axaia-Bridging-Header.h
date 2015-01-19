@@ -3,3 +3,4 @@
 //
 
 #import "CassObjc.h"
+#import "Entity.h"
